@@ -1,0 +1,150 @@
+
+
+
+.home-page {
+    background-color: #171717;
+    color: white;
+}
+
+
+
+.home-page header {
+    background-color: #111111;
+    padding: 45px 20px;
+}
+
+.home-page header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+}
+
+.home-page header p {
+    color: #bdbdbd;
+    margin-top: 10px;
+}
+
+
+
+.home-page nav {
+    background-color: #202020;
+    padding: 18px;
+    border-bottom: 1px solid #383838;
+}
+
+.home-page nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.home-page nav a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.home-page nav a:hover {
+    color: #ff8c42;
+}
+
+
+
+.home-main {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 55px 25px;
+}
+
+.home-page section {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 55px;
+}
+
+
+
+.welcome-section {
+    text-align: center;
+}
+
+.welcome-label {
+    color: #ff8c42;
+    font-size: 0.85rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.welcome-section h2 {
+    font-size: 2.7rem;
+    margin: 15px 0;
+}
+
+.welcome-section h2 span {
+    color: #ff8c42;
+}
+
+.category-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.category-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 230px;
+    padding: 25px;
+    border: 1px solid #383838;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.category-card:hover {
+    border-color: #ff8c42;
+    background: #303030;
+}
+
+.category-number {
+    color: #ff8c42;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.category-content h3 {
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+}
+
+.category-content p {
+    color: #aaaaaa;
+    margin-bottom: 25px;
+}
+
+.category-content span {
+    color: #ff8c42;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+
+.home-page footer {
+    background-color: #111111;
+    border-top: 1px solid #383838;
+    color: #aaaaaa;
+    padding: 25px;
+}
+
+

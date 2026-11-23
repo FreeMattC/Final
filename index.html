@@ -1,63 +1,75 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Tier Lists</title>
-
- <link rel="stylesheet" href="reset.css">
-<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="home.css">
 </head>
 
-<body>
+<body class="home-page">
 
     <header>
-        <h1>My Tier Lists</h1>
-        <p>Ranking my favorite things</p>
+        <h1>MY TIER LISTS</h1>
+        <p>Ranking my favorite movies, TV shows, and video games.</p>
     </header>
 
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
             <li><a href="movies.html">Movies</a></li>
             <li><a href="tv-shows.html">TV Shows</a></li>
             <li><a href="video-games.html">Video Games</a></li>
         </ul>
     </nav>
 
-    <main>
-        <h2>Welcome to My Tier Lists</h2>
+    <main class="home-main">
 
-        <p>
-            This website is where I rank some of my favorite things.
-            I enjoy movies, TV shows, and video games, so I wanted
-            to create a place where I can organize and rank them.
-        </p>
+        <section class="welcome-section">
+            <p class="welcome-label">WELCOME TO MY RANKINGS</p>
+            <h2>My Favorites. <span>My Rankings.</span></h2>
+            <p>
+                Explore my personal rankings of movies, television shows,
+                and video games, from my all-time favorites to the ones
+                that didn't quite make the cut.
+            </p>
+        </section>
 
-        <p>
-            You can explore my different rankings using the navigation
-            bar above. Each page will have its own list of favorites
-            ranked from best to worst.
-        </p>
+        <section class="category-section">
+            <h2>Explore the Rankings</h2>
 
-        <section>
-            <h2>What I Rank</h2>
+            <div class="category-grid">
 
-            <div class="categories">
-                <section>
-                    <h3>Movies</h3>
-                    <p>My favorite movies ranked from best to worst.</p>
-                </section>
+                <a href="movies.html" class="category-card">
+                    <div class="category-number">01</div>
+                    <div class="category-content">
+                        <h3>Movies</h3>
+                        <p>Explore my movie rankings.</p>
+                        <span>VIEW RANKINGS →</span>
+                    </div>
+                </a>
 
-                <section>
-                    <h3>TV Shows</h3>
-                    <p>My favorite television shows and series.</p>
-                </section>
+                <a href="tv-shows.html" class="category-card">
+                    <div class="category-number">02</div>
+                    <div class="category-content">
+                        <h3>TV Shows</h3>
+                        <p>Explore my television rankings.</p>
+                        <span>VIEW RANKINGS →</span>
+                    </div>
+                </a>
 
-                <section>
-                    <h3>Video Games</h3>
-                    <p>The video games I have enjoyed playing the most.</p>
-                </section>
+                <a href="video-games.html" class="category-card">
+                    <div class="category-number">03</div>
+                    <div class="category-content">
+                        <h3>Video Games</h3>
+                        <p>Explore my video game rankings.</p>
+                        <span>VIEW RANKINGS →</span>
+                    </div>
+                </a>
+
             </div>
         </section>
 

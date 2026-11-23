@@ -1,75 +1,104 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #202020;
+    background-color: #171717;
     color: white;
     line-height: 1.5;
 }
 
+
+
 header {
-    background-color: #151515;
+    background-color: #111111;
     color: white;
     text-align: center;
-    padding: 35px 20px;
+    padding: 40px 20px;
 }
 
 header h1 {
-    font-size: 2.3rem;
-    margin-bottom: 5px;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
 }
 
+
+
 nav {
-    background-color: #333;
+    background-color: #202020;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 30px;
-    padding: 15px;
+    gap: 35px;
+    padding: 18px;
+    border-bottom: 1px solid #383838;
 }
 
 nav a {
-    color: white;
+    color: #cccccc;
     font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #ffd166;
+    color: #ff8c42;
 }
+
+
 
 main {
     max-width: 1250px;
-    margin: 35px auto;
-    padding: 0 20px;
+    margin: 40px auto;
+    padding: 0 25px;
 }
 
 section {
-    background-color: #292929;
-    padding: 20px;
-    margin-bottom: 25px;
-    border-radius: 8px;
+    background-color: #222222;
+    padding: 25px;
+    margin-bottom: 30px;
+    border: 1px solid #383838;
+    border-radius: 10px;
 }
 
 section h2 {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
+
+
 
 .tier-intro {
     text-align: center;
 }
 
+.tier-intro h2 {
+    font-size: 2rem;
+}
+
+.tier-intro p {
+    color: #aaaaaa;
+}
+
+
+
 .tier-list {
     padding: 0;
     background-color: transparent;
+    border: none;
 }
 
 .tier-row {
     display: grid;
     grid-template-columns: 130px 1fr;
-    min-height: 155px;
-    background-color: #171717;
-    border: 1px solid #333;
-    margin-bottom: 3px;
+    min-height: 175px;
+    background-color: #202020;
+    border: 1px solid #383838;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    overflow: hidden;
 }
+
+
 
 .tier-label {
     display: flex;
@@ -78,7 +107,7 @@ section h2 {
     text-align: center;
     font-size: 1.1rem;
     font-weight: bold;
-    color: #222;
+    color: #222222;
     padding: 10px;
 }
 
@@ -106,24 +135,33 @@ section h2 {
     background-color: #75f77b;
 }
 
+
+
 .tier-items {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 12px;
-    padding: 12px;
+    gap: 15px;
+    padding: 15px;
 }
 
 .tier-card {
     width: 150px;
+    transition: transform 0.3s;
 }
 
+
 .tier-card img {
+    display: block;
     width: 150px;
     height: 200px;
     object-fit: fill;
-    border: 2px solid #555;
-    border-radius: 4px;
+    border: 2px solid #444444;
+    border-radius: 6px;
+}
+
+.tier-card img:hover {
+    border-color: #ff8c42;
 }
 
 .tier-card p {
@@ -131,12 +169,15 @@ section h2 {
     margin-top: 5px;
 }
 
+
+
 footer {
-    background-color: #151515;
-    color: white;
+    background-color: #111111;
+    color: #aaaaaa;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
     margin-top: 40px;
+    border-top: 1px solid #383838;
 }
 
 
